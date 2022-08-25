@@ -1,0 +1,120 @@
+* {
+    padding: 0%;
+    margin: 0%;
+  }
+
+body{
+      background-color: white!important;
+  }
+  
+  /* HEADER */
+
+  header{
+    z-index: 100;
+}
+ 
+.nav-link{
+    color: white!important;
+}
+
+.navbar-brand{
+    color: white!important;
+}
+/* TIENDA */
+
+.h1Tienda{
+    text-align: center;
+    color:black;
+    margin-top: 20px;
+}
+
+.galeria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card{
+    background-color: black!important;
+}
+
+/* CARRITO */
+
+.paginaCarrito{
+    margin: 80px auto!important;
+}
+
+.containerCarrito{
+    width: 1350px;
+}
+
+table{
+    width: 100%!important;
+    border-collapse: collapse!important;
+}
+
+.informacionCarrito{
+    display: flex!important;
+    flex-wrap: wrap!important;
+}
+
+th{
+    text-align: left!important;
+    padding: 5px!important;
+    color: white!important;
+    background-color: black!important;
+    font-weight: normal!important;
+}
+
+td{
+    padding: 10px 5px !important;
+}
+
+td input{
+    width: 40px!important;
+    height: 30px!important;
+    padding: 5px!important;
+}
+
+td a{
+    color: black;
+    font-size: 12px;
+}
+
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.precioTotal{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.precioTotal table{
+    border-top: 3px solid black;
+    width: 100%;
+    max-width: 400px;
+}
+
+td:last-child{
+    text-align: right;
+}
+
+th:last-child{
+    text-align: right;
+}
+
+.btnComprar{
+    margin-left: 1250px;
+}
